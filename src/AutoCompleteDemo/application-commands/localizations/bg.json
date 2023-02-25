@@ -1,0 +1,59 @@
+{
+    "schema_version": 1,
+    "global_localizations":
+    {
+        "slash_commands":
+        {
+            "leagues":
+            {
+                "name": "",
+                "description": "",
+                "options":
+                {
+                    "league-result":
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    "league":
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                }
+            },
+            "teams":
+            {
+                "name": "",
+                "description": "",
+                "options":
+                {
+                    "team":
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                }
+            },
+            "cascading_options":
+            {
+                "name": "",
+                "description": "",
+                "options":
+                {
+                    "league":
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    "team":
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                }
+            }
+        }
+    },
+    "guild_localizations": null
+}
