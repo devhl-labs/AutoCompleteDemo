@@ -1,6 +1,4 @@
 using AutoCompleteDemo.Modules.Application.AutoComplete.Queries;
-using AutoCompleteDemo.Modules.Application.AutoComplete.Results;
-using Disqord.Bot;
 using Disqord.Bot.Hosting;
 using Disqord.Gateway;
 
@@ -20,7 +18,6 @@ namespace AutoCompleteDemo
                 {
                     bot.Token = hostBuilder.Configuration["AutoCompleteDemo"];
                     bot.Intents = GatewayIntents.DirectMessages | GatewayIntents.GuildMessages;
-                    bot.ReadyEventDelayMode = Disqord.ReadyEventDelayMode.Guilds;
                 })
                 .Build();
 
